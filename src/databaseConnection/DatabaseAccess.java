@@ -14,8 +14,8 @@ import model.User;
 public class DatabaseAccess {
 
 	static String connectionUrl = "jdbc:mysql://vergil.u.washington.edu:25565/TCSS445Airline";
-	static String connectionUser = "root";
-	static String connectionPassword = "Mousel95Root";
+	static String connectionUser = "";
+	static String connectionPassword = "";
 
 	static DBConnection db = new DBConnection(connectionUrl, connectionUser, connectionPassword);
 	
