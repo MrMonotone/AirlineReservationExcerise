@@ -13,7 +13,7 @@ import model.User;
 
 public class DatabaseAccess {
 
-	static String connectionUrl = "jdbc:mysql://vergil.u.washington.edu:25565/TCSS445Airline";
+	static String connectionUrl = "";
 	static String connectionUser = "";
 	static String connectionPassword = "";
 
